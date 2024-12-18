@@ -1,6 +1,7 @@
 import path from "path"
 import react from "@vitejs/plugin-react"
 import { defineConfig } from "vite"
+import commonjs from 'vite-plugin-commonjs';
 
 export default defineConfig({
   plugins: [react({fastRefresh: false })],
@@ -9,4 +10,5 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+
 })

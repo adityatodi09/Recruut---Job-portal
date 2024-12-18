@@ -9,7 +9,7 @@ import PostJob from "./pages/PostJob";
 import JobPage from "./pages/JobPage";
 import JobListing from "./pages/JobListing";
 import Onboarding from "./pages/Onboarding";
-import { ThemeProvider } from "./components/ui/theme-provider";
+import { ThemeProvider } from "./components/theme-provider";
 
 const router = createBrowserRouter([
   {
