@@ -9,9 +9,9 @@ const Header = () => {
       <nav className="py-4 flex justify-between items-center">
         <Link>
           <img
-            src="/Recruut Logo1.png"
+            src="/Recruut Logo2.png"
             alt="Recruut logo"
-            className="h-24 px-4"
+            className="h-12"
           />
         </Link>
         <Button variant="outline"> Login </Button>
